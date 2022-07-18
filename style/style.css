@@ -32,6 +32,8 @@ body{
   width: 211;
 }
 
+
+
 .main-div{
   display: flex;
   align-items: center;
@@ -64,8 +66,65 @@ body{
   font-size: 20px;
 }
 
+.main-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 30px;
+  justify-content: center;
+  align-content: center;
+  place-items: center;
+}
+
+
+
+
+
+
+
 hr{
   width: 90%;
 }
 
+
+.lola{
+  display: flex;
+  justify-content: center;
+}
+
+.lola-child{
+  width: 30%;
+}
+
+.footer h3{
+  padding-top: 40px;
+}
+
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 100%;
+}
+
+.lola-child-two{
+  width: 50%;
+}
+
+.card{
+  box-shadow: 0 0 20px -18px;
+  border-radius: 10px;
+  width: 48%;
+  height: 95%;
+  padding: 10px;
+}
+
+.lola-child-two a{
+  text-decoration: none;
+  color: white;
+  background-color: #E02C6D;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 7px 23px;
+}
 
