@@ -177,7 +177,7 @@ hr{
 
     .line{
       display: grid;
-      grid-template-columns: repeat(2,1.2fr);
+      grid-template-columns: repeat(3,0.9fr);
       place-items: center;
     }
 
