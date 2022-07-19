@@ -169,24 +169,21 @@ hr{
 }
 
 
-/* Mobile Device*/
+/* Mobile Device Done*/
 @media only screen and (max-width: 688px) {
     .main-div{
       flex-direction: column-reverse;
     }
-
     .line{
       display: grid;
-      grid-template-columns: repeat(3,0.9fr);
+      grid-template-columns: repeat(2,0.9fr);
       place-items: center;
     }
-
     .main-cards{
       display: grid;
       grid-template-columns: repeat(1,1fr);
       place-items: center;
     }
-
     .lola{
       flex-direction: column-reverse;
     }
@@ -196,17 +193,13 @@ hr{
     .lola{
       place-items: center;
     }
-   
      .lola-child-two{
       margin-bottom: 40px;
      }
-
     .lola , .lola-child{
       width: 97%;
      margin: 0 auto;
-    }
-     
-     
+    } 
     .second-div img{
        width: 100%;
     }
