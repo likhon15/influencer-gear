@@ -155,7 +155,9 @@ hr{
 }
 
 
-
+.card i{
+   color: gold;
+}
 
 
 /* Mobile Device*/
